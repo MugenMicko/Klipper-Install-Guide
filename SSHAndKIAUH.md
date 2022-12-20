@@ -16,3 +16,17 @@ The second command is to actually grab the updates
 ```
 sudo apt upgrade
 ```
+Now we are going to install the Git Software
+```
+sudo apt install git
+```
+Follow the bouncing ball and you should be now able to pull stuff from Github!! Yaaay!!!
+
+For the next step, we are going to install this amazing script called KIAUH.  KIAUH is Klipper Installer And Update Helper.  It makes it really easy to installer Klipper, Moonraker, the interface you want to use like Mainsail or Fluidd, etc Written by a champ that goes by @th33xitus! You can have a peep at his Github page 
+at https://github.com/th33xitus/kiauh
+To do that we run the command below
+```
+cd ~
+git clone https://github.com/th33xitus/kiauh.git
+./kiauh/kiauh.sh
+```
