@@ -29,4 +29,4 @@ What you will need:
  Huzzah!! Your Pi should be all aroused and its little lights twinkling!!
  Now, regardless of if you are using WiFi or Ethernet cable, you need to find out what its IP address is, but this isn't the guide for that, I would suggest googling a how to on that, and then we can move on to using SSH to connect to your Pi
 
-                                                                                                                                             (SSH and KIAUH) [Next Page](https://github.com/MugenMicko/Klipper-Install-Guide/blob/main/SSHAndKIAUH.md)
+(SSH and KIAUH) [Next Page](https://github.com/MugenMicko/Klipper-Install-Guide/blob/main/SSHAndKIAUH.md)
