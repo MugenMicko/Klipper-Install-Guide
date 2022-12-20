@@ -24,9 +24,19 @@ Follow the bouncing ball and you should be now able to pull stuff from Github!! 
 
 For the next step, we are going to install this amazing script called KIAUH.  KIAUH is Klipper Installer And Update Helper.  It makes it really easy to installer Klipper, Moonraker, the interface you want to use like Mainsail or Fluidd, etc Written by a champ that goes by @th33xitus! You can have a peep at his Github page 
 at https://github.com/th33xitus/kiauh
+
 To do that we run the command below
 ```
 cd ~
 git clone https://github.com/th33xitus/kiauh.git
 ./kiauh/kiauh.sh
 ```
+Once git has done its thing and downloaded the script (it doesn't take long) it will show a nice little ascii menu.
+For starters you want to install Klipper (When given the option, choose Python 2.7)
+Then you want to install Moonraker
+Now you take your pick between Mainsail and Fluidd (Personal preference here is Mainsail, however they are very similiar, you do what you want champ!)
+Now this is where we get to the point that you need to decide what webcam platform you want to use, it will give you the option to run MPGStreamer, or alternatively you can use the system I prefer called [Crowsnest](https://github.com/mainsail-crew/crowsnest).
+If you want to run MPGStreamer, let KIAUH install it, if you want to run Crowsnest, don't install MPGStreamer
+Now we go back a select the update option and it will show you the current version of software installed and the current version.  I go through each individually and update them including the system to prevent any conflicts
+Once this is done, exit out
+At the prompt, type ```sudo shutdown -r now```
