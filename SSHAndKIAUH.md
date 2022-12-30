@@ -32,7 +32,7 @@ git clone https://github.com/th33xitus/kiauh.git
 ./kiauh/kiauh.sh
 ```
 Once git has done its thing and downloaded the script (it doesn't take long) it will show a nice little ascii menu.
-  - For starters you want to install Klipper (When given the option, choose Python 2.7)
+  - For starters you want to install Klipper (When given the option, choose Python 3.x as recommended)
   - Then you want to install Moonraker
   - Now you take your pick between Mainsail and Fluidd (Personal preference here is Mainsail, however they are very similiar, you do what you want champ!)
   - Now this is where we get to the point that you need to decide what webcam platform you want to use, it will give you the option to run MPGStreamer, or alternatively you can use the system I prefer called [Crowsnest](https://github.com/mainsail-crew/crowsnest).
